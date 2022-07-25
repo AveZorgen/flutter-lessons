@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_lessons/HWlesson4.dart';
 
 void main() {
-  var car1 = registered(speed: 35, name: 'Jeep');
+  var car1 = registered(speed: 35, name: 'Jeep'); //(ЗАДАНИЕ 4.1)
 
-  // car1.toPrint(); //вывод информации второй раз (ЗАДАНИЕ 2)
+  // car1.toPrint(); //вывод информации второй раз (ЗАДАНИЕ 4.2)
 
-  // var car2 = registered(name: "Buhanka"); //(ЗАДАНИЕ 3)
-  // var car3 = registered(); // (ЗАДАНИЕ 3)
+  // var car2 = registered(name: "Buhanka"); //(ЗАДАНИЕ 4.3)
+  // var car3 = registered(); // (ЗАДАНИЕ 4.3)
 
   runApp(const MyApp());
 }
