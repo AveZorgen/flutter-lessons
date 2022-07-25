@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_lessons/HWlesson4.dart';
 
 void main() {
+  var car1 = registered(speed: 35, name: 'Jeep');
+
+  // car1.toPrint(); //вывод информации второй раз (ЗАДАНИЕ 2)
+
+  // var car2 = registered(name: "Buhanka"); //(ЗАДАНИЕ 3)
+  // var car3 = registered(); // (ЗАДАНИЕ 3)
+
   runApp(const MyApp());
 }
 
