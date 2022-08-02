@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_lessons/HWlesson4.dart';
+import 'package:flutter_lessons/second_screen.dart';
+
+import 'News.dart';
+
+
 
 void main() {
-  var car1 = registered(speed: 35, name: 'Jeep'); //(ЗАДАНИЕ 4.1)
+  // var car1 = registered(speed: 35, name: 'Jeep'); //(ЗАДАНИЕ 4.1)
 
   // car1.toPrint(); //вывод информации второй раз (ЗАДАНИЕ 4.2)
 
@@ -32,7 +37,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: SecondScreen(),
     );
   }
 }
